@@ -3,7 +3,7 @@ class Solution:
         candidate=None
         count=0
 
-        for  num in nums:
+        for num in nums:
             if count==0:
                 candidate=num
 
@@ -12,4 +12,5 @@ class Solution:
 
             else:
                 count-=1
+
         return candidate
